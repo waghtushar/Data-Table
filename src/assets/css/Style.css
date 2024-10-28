@@ -1,0 +1,42 @@
+/* Card hover effect */
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-color: #ffc107; /* Mango color border on hover */
+}
+
+/* Change button color on hover */
+.btn-primary:hover {
+    background-color: #ffa726 !important; /* Mango-ish color */
+    border-color: #ffa726 !important; /* Mango-ish color */
+}
+
+/* Change pagination button colors */
+.btn-outline-primary:hover {
+    background-color: #ffeb3b !important; /* Lighter yellow hover */
+    border-color: #ffeb3b !important; /* Matching border */
+    color: black !important; /* Text color change */
+}
+
+/* Custom sort button hover */
+.btn-primary {
+    background-color: #ffc107; /* Initial mango color */
+    border-color: #ffc107;
+}
+
+.btn-primary:hover {
+    background-color: #ffa726 !important; /* Mango-dark shade on hover */
+    border-color: #ffa726 !important;
+}
+
+/* Styling pagination buttons */
+.btn-outline-primary {
+    border-color: #ffc107; /* Initial border color */
+    color: #ffc107; /* Text color */
+}
+
+.btn-outline-primary:disabled {
+    color: #bbb;
+    border-color: #bbb;
+}
